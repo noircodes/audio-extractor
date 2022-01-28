@@ -6,4 +6,4 @@ video = moviepy.editor.VideoFileClip("test.mp4")
 # else you need to give path of the video file
 
 audio = video.audio
-audio.write_audioFile("extracted.mp3")
+audio.write_audiofile("extracted.mp3")
